@@ -1,0 +1,142 @@
+                                     Java Interview
+									 
+    Link:https://www.youtube.com/watch?v=IJWKUAeJAio&t=2411s
+	
+	Q1:What is local variable and global variable?
+	Ans:
+	
+	Q2:Can local variable be private?
+	Ans:No bcoz its already private.
+	
+	Q3:which is access specifier?
+	Ans:Its four access specifier
+	    public 
+		private
+		default
+		protected
+		
+	Q4:What is protected means?
+	Ans:It is accessible within package its can,t access outside the package.
+	
+	Q5:Do you know any protected method in java?
+	Ans:
+	
+	Q6:Do you know any public method in java?
+	Ans:Hashcode 
+	
+	Q7:What is hash code?
+	Ans:It is unique representation of object.
+	
+	Q8:Why multiple Inheritance is not allowed in java?
+	Ans:Its complex and create ambiguity problem
+	
+	Q9:What is inner class?
+	Ans:Inner class are those classes which are create inside the one class to the other 
+	class like If nested.
+	
+	Q10:Can we create Inner class object?
+	Ans:
+	
+	Q11:Can local variable final?
+	Ans: Yes
+	
+	Q12:What is garbage collection in java?
+	Ans:Garbage collection is automatically free the space of memory area.
+	
+	Q13:Which method is use to perform garbage collection?
+	Ans:
+	
+	Q14:What will be output come
+	    public class vectorTest{
+		 public static void main(String[]args){
+          System.out.println('J'+""+'B');===acsii value and add it
+		 System.out.println('J'+'B');
+		 System.out.println("J"+"B");JB
+		 }}
+		 
+		 output:
+		 
+	Q15:public class vectorTest{
+	       public static void main(String[] args){
+		   String X="hello";
+		   char ch[]=x.tocharArray();
+		   String res="";
+		   for (int i=ch.length-1;i++){
+		   res=res+ }
+		   System.out.println(res);}
+		   
+		   
+	
+	Q16:Why hibernate is used?
+	Ans:
+	
+	Q17:Why we use JDBC?
+	Ans:
+	
+	Q18:You know database?
+	Ans:
+	
+	Q19:package com.jbk;
+	      public static void main(String[] args){
+		  int a[]={4,6,7,9,2,34,12};
+		  int min=a.length-1;
+		  for(int i=0;i<a.length;i++){
+		  if(a[i]<min)
+		  min=a[i];
+		  }
+		  System.out.println(min);
+		  }
+		o/p:2
+		second lowest number where we change the logic
+		
+	Q20:What is the difference between save and update method in hibernate?
+	Ans:
+	
+	Q21:What is pozo;
+	Ans:
+	
+	Q22:Why getter and setter are we use?
+	Ans:It is used in encapsulation to use access in private.
+	
+	Q23:What is Interface;
+	Ans:Its pure abastraction here public private and final specifier can used.
+	
+	Q24:Can Interface extend interface?
+	Ans:yes
+	
+	Q25:can class extend interface?
+	Ans:no
+	
+	Q26:Any interface you know in java.
+	Ans:Runnable 
+	
+	Q27:Any abstractclass you know in java.
+	Ans:
+	
+	Q28:Any Inbuilt class you know in java .
+	Ans:Input stream reader and output stream reader
+	
+	Q29:Any final class 
+	Ans: String
+	
+	Q30:object class is final
+	Ans:no
+	
+	Q31:What is super class of hashset?
+	Ans:abstractlist
+	
+	Q32:What is super class of abstractclass list?
+	Ans:abstractList
+	
+	Q33:Which is sub Interface of sub Interface?
+	Ans:Collection
+	
+	Q34:about vector
+	Ans:Vector allow duplicate value and null value
+	  Its legacy class
+	  
+	Q35:We add student list in array list it is possible.
+	Ans :yes
+	
+	Q36:What iterator?
+	Ans:We can create Iterator object by using iterator() of collection Interface 

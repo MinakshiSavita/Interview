@@ -1,0 +1,149 @@
+                            Java Interview
+							
+	Link:https://www.youtube.com/watch?v=KfoNYoVUBJI
+    
+    Q1:Explain Collection Hierarchy
+	Ans:Collection is the parent class of list,queue,set
+	    In sub class of list 
+		Its contains ordered elements
+		May include duplicates
+		Supports the index based search,random access but elements can be easily inserted
+		irrespective of the position.
+		 
+		In sub class of Set
+		Its doesnot define an order for the elements hence index based search is not
+         supported
+        here duplicates are not allowed
+
+        In sub class of Queue
+        Its follow the FIFO approach
+        Elements adds at rear end remove from the front end.		
+	
+	    In collection Interface Map is not the sub class of collection
+		Represents a key,value pair
+		Map interface does not implement the collection.
+		It contain a unique key
+		Can have duplicate values
+		
+	Q2:Explain about List Interface.
+	Ans:List Interface is the parent class of ArrayList ,LinkedList,Vector
+	    Here implements List and Deque interfaces.
+		maintain the insertion order 
+		Non synchronized.
+		does not support accessing elements randomly.
+		using ListIterator to iterate LinkedList elements.
+		
+		Vector:It is synchronized.
+		 maintains the insertion order
+		 Its Thread safe
+		 Vector increases its size by doubling the array size 
+		 It's have legacy class
+		 
+		 In Stack:last in last out
+		  the elements are added as well as removed from the rear end
+		  
+	Q3:Explain Set Interface
+	Ans:Set is Extends by Sorted Set and Tree Set
+	    Sub class of Hash Set and Linked Hashset
+		
+		In Hashset: it implicitly implements a hashtable.
+		Contains only unique elements
+		 only one null element can be added 
+		 Its unordered as set
+		 
+		In Linked Hashset:ordered version of Hashset which
+		 maintains a doubly linked List across all elements
+		 It preserves the insertion order
+		 
+		In Sortedset:All elements of SortedSet must implement the Comparable interface
+		It's a set sorted in an ascending order.
+		
+		In TreeSet:Uses a tree for storage(Self balancing binary search tree like Red Black
+		Tree)
+		Treeset are stored in a sorted and ascending order.
+		
+	Q4:Explain Queue Interface.
+	Ans:In Queue Interface its sub class is priorityQueue
+	    Queue Interface is extended by Deque and ArrayDeque
+		
+		In PriorityQueue is a queue with priority associated with each element.
+		high priority element is served before a low priority elements irrespective of their
+		insertion order.
+		
+		In Deque:Deque refers to double ended queue.
+		Elements can be add or removed from the either end.
+		
+		In ArrayDeque:way to apply resizeble array in addition to the implementation of
+         the Deque interface
+        no capacity restrictions
+  
+    Q5:Explain Map Interface.
+    Ans:In Map Interface It has two sub class of Hash map and Hash Table
+	     Map Its extended sortedmap and Tree Map
+		
+		In Hash Table:Its synchronized
+		Its thred safe
+		Its performance is low.
+		
+		In Hash Map:Its non synchronized
+		Its  not threadsafe
+		Its performance is high.
+		 
+		In SortMap:In sort map enteries are maintained in an ascending key order
+		
+		In Treemap:Implicitly implements the Red Black tree implemention
+		Cannot store any null key
+		
+	Q6:Why Map doesn't extend the Collection Interface?
+	Ans:The Map interface in java follow a key/value pair structure whereas the collection 
+	    interface is a collection of objects which are stored in a structured manner with
+		a specified access mechanism.
+		The main reason the collection does't extend the collection interface is that the add(Ee)
+		method of the collection interface doesn'support the key value pair like Map interface's
+		put(K,V)method.
+		It might not extend the collection interface but still is an integral part of the java
+		Collection framework.
+		
+	Q7:Difference between fail-fast and fail-safe Iterators
+	Ans:Fail fast itrators throws concurrent modification exception when one thread is
+        itrating over collection object and other thread structurally modify collection
+        either by adding,removing or modifying objects on underlying collection.They are
+        called Fail fast because they try to immediately throw exception when they encounter
+        failure.
+       
+        Fail safe iterator does't throw any exception if collection is modified structurally
+        while one thread is Iterating over it because they work on clone of collection
+        insted of original collection and that'why they are  called as fail-safe iterator		
+		
+	Q8:What do you understand by BlockingQueue?
+	Ans:The java BlockingQueue interface ,java.util.concurrent.BlockingQueue,represents a
+	    queue which is thread safe to put elements into ,and take elements out of from a java
+		BlockingQueue,without any concurrently issue arising.
+		
+		Its capable of blocking the threads that try to insert or take elements from the queue
+		for instance ,if a thread tries to take an element and there are none left in the queue
+		,the thread can be blocked until there is an element to take.
+		
+	Q9:Difference between Synchronized collection and concurrent collection?
+	Ans:Both Synchronized collection and concurent collection is thread safe.
+	    The difference between them comes in performance ,scalability and how they achieve 
+		thread safety.
+		Synchronized collections like synchronizedHashMap are much slower then their concurrent
+		collection counterparts e.g. ConcurrentHashMap,main reason for this slowenss is locking;
+		
+	Q10:Internal working of hashmap.
+	Ans:Hashmap in java works on hashing principal where hash functions are used to link
+	    key and value in Hashmap,objects(Map.Entry->contains both key and value object)are
+		stored by calling put(key,value)method of HashMap and retrieved by calling get (Key)
+		method.
+		
+		When we call put method,hashcode()method of the key object is called which calculates
+		an index of the bucket location where we can store the value object.
+		
+		To retrieve,you call the get()method and again pass the key object,which lands u up
+		at same index or bucket and u retieve the value object.
+		
+		
+		
+		
+	

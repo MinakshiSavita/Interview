@@ -1,0 +1,8 @@
+git config --global user.name""
+git config --global user.email""
+git clone(Website link)
+cd(folder name)
+git status
+git add
+git commit -m""
+git push origin master

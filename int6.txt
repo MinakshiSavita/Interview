@@ -1,0 +1,61 @@
+                             Interview Question
+							 
+		Link:https://www.youtube.com/watch?v=eq_7znLwXDs&t=1082s
+		
+		Q1:What is java?
+		Ans:
+		
+		Q2:What is Encapsulation?
+		Ans:
+		
+		Q3:What is the example of Encapsulation.
+		Ans:
+		
+		Q4:What is static keyword?
+		Ans:
+		
+		Q5:if we can want its constant
+		Ans:
+		
+		Q6:If we want to constant any variable then what we do.
+		Ans:
+		
+		Q7:What is the mean by object oriented?
+		Ans:
+		
+		Q8:java is a fully object oriented or not
+		Ans:
+		
+		Q9:What is wrapper class?
+		Ans:
+		
+		Q10:Wrapper is used for that purpose.
+		Ans:
+		
+		Q11:Which primitive data type are using in java?
+		Ans:
+		
+		Q12:use of decimal and float
+		Ans:
+		
+		Q13:what is continue and break statement
+		Ans:
+		
+		Q14:What is the use of switch over the while loop 
+		Ans:
+		
+		Q15:What is the advantage of switch while loop and for loop?
+		Ans:
+		
+		Q16:Any advantage of itrable.
+		Ans:
+		
+		Q17:What is preincrement and post increment?
+		Ans:
+		
+		Q19:What is the use of consutructor?
+		Ans:Its use to insiliaze the objects.
+		
+	
+		
+		

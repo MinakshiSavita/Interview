@@ -1,0 +1,103 @@
+                                   Java Interview
+								   
+	Link:https://www.youtube.com/watch?v=hly-HBNM9dc
+	
+	Q1:List<String>sList=newArrayList<String>();
+	   sList.add("");
+	   for(string s:sList){
+	   Sops(s.length());
+	   }
+	   
+	   sList.add(null);
+	   for(String s:sList){
+	   Sop(s.length);
+	   }
+	   output of given code
+	    
+	Q2:Can we delete a row on a GET  method Call in REST?
+	Ans:
+	
+	Q3:What is Apache Kafka?
+	Ans:
+	
+	Q4:What is apache camel?
+	Ans:
+	
+	Q5:What is polymorphism?What are the different Types of it?
+	Ans:Polymorphism is a action difine in many ways
+	     Its two types 
+		 Runtime Polymorphism
+		 Compile time polymorphism
+		 In runtime polymorphism is method overloading
+		 In compile polymorphism is method overriding
+		 
+		 
+	Q6:When do we use static polymophism and when do we use dynamic Polymorphism
+	Ans:Static polymorphism is 
+	
+	
+	Q7:Can you Explain OOps concepts and Where they have Implanted in java
+	Ans:In java oops concept is major topic on here four main pillar of oops concept is
+	    Abstraction
+		Inheritance
+		Encapsulation
+		Polymorphism
+		
+	Q8:Can you create a customized class for exception handling?
+	Ans:
+	
+	Q9:Can we use try with multiple catch?
+	Ans:
+	
+	Q10:What is multi-therading?
+	Ans:
+	
+	Q11:Why do we you multi thrading process?
+	Ans:
+	
+	Q12:What is importance of FINAL keyword?
+	Ans:
+	
+	Q13:Explain the concept of Serialization?
+	Ans:
+	
+	Q14:What is the difference between Rest and Soap?
+	Ans:
+	
+	Q15:Create your own Singleton class.
+	Ans:
+	
+	Q16:What is deep copying and shallow copying?
+	Ans:
+	
+	Q17:What is the different scopes of spring supports?
+	Ans:
+	
+	Q18:If Parent bean is prototype and for the child bean if we are not mentioning any
+	 scope explicitly
+	 What would be the scope of child bean?
+	Ans:
+	
+	Q19:Different  types of DI?Which one would you prefer?
+	Ans:
+	
+	Q20:Explain What are micro services?
+	Ans:
+	
+	Q21:What are important methods in REST?
+	Ans:
+	
+	Q22:How can make spring boot server restart on changes?
+	Ans:
+	
+	Q23:Explain how try with resources work.
+	Ans:
+	
+	Q24:What do you understand by SPA?
+	Ans:
+	
+	Q28:What are different types of Joins?Explain them.
+	Ans:
+	
+	
+	

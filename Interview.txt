@@ -1,0 +1,132 @@
+                                     Java Interview
+	Link:
+    
+    Q1:What is the difference between Stringbuffer and Stringbuilder?
+	Ans:Stringbuffer is Synchronized and thread safe Stringbuilder
+		    is not syncronized and thread safe.
+			
+    
+
+    Q2:Four pillers of object oriented programming.
+   Ans:Abstraction
+       Encapsulation
+       Inheritance
+	   Polymorphism
+	   
+    Q3:Difference between abstraction and interface.
+   Ans:Abstraction                            Interface
+      Abstract class can have abstract     Interface keyword is used to create Interface
+	  and non abstract method.              
+	  
+	  Abstract class can't support          Interface supports multiple Inheritance
+	  multiple Inheritance.
+	  
+	  Abstract class can have final          Interface have only final and static 
+	  and non final                                   variables.
+	  static or nonstatic variables.
+	  
+	  Abstract class can be extended by      Interface can be implemented by implement
+	  using extend keyword                    Keyword.
+	  
+     
+	   
+
+    Q4:What is the difference between Arrays and collection?
+   Ans:Arrays :Arrays are fixed in size
+               It can hold only homogenous datatyped elements.
+               There is no underlying data structure for arrays and hence 
+			   readymade method support is not available.
+			   
+	Collections:collection are growable in nature i.e based on our requirment
+	            we can increase or decrease the size.
+				It can hold both homogenous and hetrogenous datatyped elements.
+				In collections class is implemented based on some standard data
+				structure
+				hence readymade method support is available for every requirement
+                	  
+
+    Q5:Why abstract class has constructor but interface has not?
+   Ans:An interface is a complete abstraction of class.All data members present in the 
+       interface are by default public,static,and final.All the static final fields 
+	   should be assigned values at the time of declaration.
+
+    Q6:Can we create an object of abstract class?
+   Ans:	No
+   
+    Q7:Difference of overloading and overriding
+   Ans:overloading:In method overloading one class extend by another class it
+       overriding:
+   
+    Q8:What is constructor?
+   Ans:Constructor is block of codes similar to the method.It is called when an instance
+       of the class is created.At the time of calling constructor,memory for the object
+	   is allocated in the memory.
+   
+   Q9: Can we overload the constructor?
+   Ans:yes
+   
+   Q10:Can we override the constructor?
+   Ans:No
+   
+   Q11:What is the difference between data hiding and abstraction?
+   Ans:Data hiding:outside person can't access our internal data directly are our internal
+       data should not go out directly its data hiding.
+	   
+	   abstraction:hiding internal implementation and just highlate the setup service we
+	   are offering is the concept of abstraction.
+   
+   Q12:What is difference between string and string buffer?
+   Ans:String is immutable class.String buffer is mutable class.
+       In String is slow and consume more memory.String buffer is fast and consumes less
+	   memory .
+	   String class overrides the equals()method of object class.
+	   String buffer class can't overrides the equals()method of object class.
+   
+   Q13:What is the mean by immutable?
+   Ans:Immutable means unchangeable.
+   
+   Q14:How to define immutable class?
+   Ans: declare the class use final so it can't be extended
+        make to all fields private.
+   
+   Q15:How many ways to restrict to the user to create object?
+   Ans:Five ways to create object
+       1.new operator
+	   2.newInstance()method
+	   3.clone()method
+	   4.Serialization method
+	   5.Deserialization
+   
+   Q16:How to restrict user to create child class object?
+   Ans:
+   
+   Q17:In java which class is root of exception hierchy?
+   Ans:object
+   
+   Q18:What is difference between final and immutablity?
+   Ans:Final : if a class final we can't extend that class.if a method is final then we
+       can't override that method.if a variable final then we can't reassignment for that
+	   variable.
+	   
+	   Immutabality
+	   
+   
+   Q19:How many wrapper class are their?
+   Ans:In java their are 8 wrapper class are their.
+   
+   Q20:What is the default value of boolean wrapper class?
+   Ans:False
+   
+   Q21:What is exception?
+   Ans:Exception is unwanted and unexpacted events occurs and disturb the normal flow of 
+       execution it is exception.
+	   
+  Q22:What is the difference between exception and error?
+  Ans:Exception are caused  by our program and these are recoverable
+  
+  Q23:What is the difference between checked exception and unchecked exception?
+  Ans:checked exception: are those exception which are checked by compiler to
+       
+  
+  Q24:
+   

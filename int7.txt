@@ -1,0 +1,52 @@
+                                     Interview Question
+									 
+		Link:https://www.youtube.com/watch?v=fFnuer3AD8Q&t=1775s
+		
+		Q1:What is the pillar of oops concept?
+		Ans:Encapsulation:Its binding all fields(entity )as single entity.and using getter
+		      and setter method to achieve encapsulation.
+		    Inheritance:Here all property is used to the child of parent class.Its go with
+			 class and interface name.
+			Polymorphism:Poly means single and morphism means many its nothing its using
+			  overloading and overriding
+			Abstraction:Its nothing but way to hiding implementation to the end user.
+			
+		Q2:Where did you use this concept?
+		Ans:
+		
+		Q3:Explain exception Hierachy in Inheritance.
+		Ans:
+		
+		Q4:Parent child override scenario
+		Ans:
+		
+		Q5:Can we ovveride static and private method?
+		Ans:No
+		
+		Q6:What is the difference of java7 and java8 interface?
+		Ans:In java7 we can define abstract method as part of interface.
+		    In java8 has default method and static method as part of java interface.
+			
+		Q7:What is final and finally and finalize?
+		Ans:final is keyword
+		    finally is block which is use to cleanup activity.
+			finalize is method which is called by j.v.m in priodicale manner to clean up the
+			unuse object.
+			
+		Q8:What is equals and hashcode method and its contract?
+		Ans:
+		
+		Q9:What is exception and its hierachy.
+		Ans:Here is object is root class of all subclasses and throwable is its child class
+		    subclasses of throwable is exception and error.
+			exception has two sub class Runtime exception which are called unchecked exception and
+			compile time exception which are called checked exception.
+			
+		Q10:Why checked exception also called as compile time exception,is it occurs in 
+            compile time?
+        Ans:
+
+        Q11:How to write your custom exception?
+        Ans:		
+			
+		

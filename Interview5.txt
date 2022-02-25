@@ -1,0 +1,91 @@
+               Interview Question                                        Date-29/01/2022
+
+    Link: https://youtu.be/j3JzKmTC_gI			   
+
+    Q1:What is JRE and JDK?
+    Ans:JDK is stands for java development tool kit .It contains all the library which is used to
+         to develop and run a java application.It is combination of JRE and set of development
+          tools.
+        JRE:It is stands for Java Runtime Environment which are provide runtime environment
+          for java program and it has combination of JVM and set of libraries.
+		  
+    Q2:What would happen if we write static public void main instead of public static void main.
+	Ans:In java order of specifier does't effect on problem in program.
+
+    Q3:Which are various access Acciefier in java.
+    Ans:Public :In public the method,class , variable can access from anywhere.
+        Protected:It can access by package class and subclass.
+        Private	:In Private those access by particular classes.
+	    Default:It is access by only  current package.
+    
+    Q4:Can we make constructor static?
+     Ans:No the reason is it is insilize the objects if we are trying to do then we will get
+         compile time error.
+
+    Q5:What is Inheritance?
+    Ans:In Inheritance inherit the parents class property by child class.its done by extend 
+         keyword.In java five types of Inheritance but java does't support Multiple Inheritance
+		 and Hybrid Inheritance
+         1.Single Inheritance
+         2.Multiple Inheritance
+		 3.Multilevel Inheritance
+         4.Hierachiel Inheritance
+         5.Hybrid Inheritance
+    
+    Q6:Which class is super class of all the classes.
+    Ans: Object is the super class of all The classes.
+
+    Q7:What is the aggerigation and composition?
+    Ans:Aggerigation:It is represents the weak relation.eg:Bike
+	    Composition: It is represents strong relation.eg:Vital
+		
+    Q8:Why java does not supports pointers?
+	Ans:?
+	
+	Q9:What is pointer?
+	Ans:?
+	
+	Q10:What is use of SuperKeyword?
+	Ans:SuperKeyword is refer to the object of current base class.
+
+    Q11:What logic will you determine this number is pallindrome or not?
+    Ans:?
+
+    Q12:How you check wheither number is positive or not?
+    Ans:By the conditional loop it if else conditional
+
+    Q13:java operators
+    Ans:In java seven types are operators
+        1.Arithmatic operator
+        2.Relational operator
+        3.Conditional operator
+        4.Logical operator
+		5.Assighnment operator
+        6.Bitwise operator
+        7.Increment Decrement operator
+
+    Q14:What is Assighnment operator?
+    Ans:
+
+
+    Q15:What is relational operator?
+    Ans:It is assign the relation between two operands.
+	
+	Q16:What is Arithmatic operator?
+	Ans:
+	
+	Q17:What is web driver?
+	Ans:?
+	
+	Q18:Which are various driver in selinium?
+	Ans:?
+	
+	Q19:Which driver claim tobe fastest driver?
+	Ans:chorome?
+	
+	Q20:What are different challenges in selinium?
+	Ans:?
+	
+	Q21:
+	
+	

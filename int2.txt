@@ -1,0 +1,85 @@
+                             	 
+				 Java Interview
+								 
+		Link:https://youtu.be/ddnI8oNvztw						 
+								 
+	Q1:Basics concepts of oops?
+    Ans:In java basically four main pillar of oops
+        1.Encapsulation
+        2.Polymorphsiam
+        3.Inheritance
+        4.Abstraction
+       by following these concepts we can create real world entities and here method can 
+       reuse so by this we can maintain the security .
+	   
+   Q2:what the mean of plateform independent?
+   Ans:Plateform Independence means that we can write and compile the java code in one 
+       plateform(eg windows)and can execute the class in any other supported plateform
+       (eg Linux,Solaris,etc).
+ 
+    Q3:How to converted byte code?
+    Ans:java source code is converted into bytecode file by the translator named compiler
+       .the byte code file gets name with .class extension and javac(javacompiler) is the
+        tool to compile the .java file.
+
+    Q4:can byte code running on any system?
+    Ans:yes
+
+    Q5:What is the basics difference c and java?
+    Ans: In c we learn about the basic programming procedure and 
+         in java its object oriented programming .
+
+     Q6:What is object oriented and  programming  procedure?
+    Ans:In object oriented we create object and related to its datamember and class and 
+        using methods functions.
+		
+        In programming procedure we learn about basics about programs and their procedure.
+
+     Q7:Java is procedure based or Object oriented based.
+     Ans:Java is object oriented based.
+
+     Q8:What is primitive data types?
+     Ans:In primitive data types in such kind of data structure the data of only one 
+         type eg: integer,float,character.
+
+
+     Q9:What is Inheritance?
+     Ans:In Inheritance inherit the parents class property by child class.its done by extend 
+         keyword.In java five types of Inheritance but java does't support Multiple Inheritance
+		 and Hybrid Inheritance
+         1.Single Inheritance
+         2.Multiple Inheritance
+		 3.Multilevel Inheritance
+         4.Hierachiel Inheritance
+         5.Hybrid Inheritance
+
+     Q10:Any example of Inheritance
+    Ans:class Doctor{
+	        void Doctor_Details(){
+			System.out.println("Doctor Doctor_Details.....")
+			}
+	        }
+        class Surgeon extends Doctor{
+		    void Surgeon_Details(){
+			System.out.println("Surgeon Details....")
+			}
+			}
+        public class Hospital{
+		  public static void main (String[] args){
+		  Surgeon s=new Surgeon();
+		  s.Doctor_Details();
+		  s.Surgeon_Details();
+		  }
+		  }
+
+     Q11:What is the difference between multiple inheritance and multilevel inheritance?
+     Ans:Multiple Inheritance is the 
+
+     Q12:what is the keyword used to distinguish between interfaces and inheritance?
+     Ans:In interfaces we use implements and in inheritance we use extend keyword.
+
+     Q13:Can implements multiple interfaces plus.
+     Ans: yes
+
+     	 
+						

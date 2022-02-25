@@ -1,0 +1,90 @@
+                               Java Interview
+							   
+	Link:https://www.youtube.com/watch?v=CPALfja9U14&t=693s
+
+    Q1:What is the difference between string and stringbuffer?
+    Ans:String is immutable class.String buffer is mutable class.
+       In String is slow and consume more memory.String buffer is fast and consumes less
+	   memory .
+	   String class overrides the equals()method of object class.
+	   String buffer class can't overrides the equals()method of object class.
+   
+
+    Q2: What is the difference between final key and finally key?
+    Ans:Final: Final is the modiefier applicabe for classes methods and modiefiers
+		    if a class declared as final we can't extend that class 
+		if a method is final then we can't override that method is in the child class.
+		if a variable is declared as a final then we can't perform reassighnment for that
+		variable.
+		
+		Finally:Finally is a block always associated with try catch to maintain cleanup code.
+		
+
+    Q3:how many ways we can use finally with try block?
+	Ans:many ways to 
+	
+	Q4:How many ways we can inheritance in java?
+	Ans:It has 5 types
+		 1.Single Inheritance
+         2.Multiple Inheritance
+		 3.Multilevel Inheritance
+         4.Hierachiel Inheritance
+         5.Hybrid Inheritance
+    
+
+	
+	Q5:What is the difference between abstract method and default method?
+	Ans:
+	
+	Q6:How can we create threads in java?
+	Ans:
+	
+	Q7:When we extend what the method we override?
+	Ans:
+	
+	Q8:Where the thread start?
+	Ans:thread class we have to override a method called run method provide them their own
+	   logic we call it
+	   
+	Q9:Can we start method two times?
+	Ans:No
+	
+	Q10:What the purpose of synchronized block?
+	Ans:It is piece of code to accessed by one thread at a time.
+	
+	
+	Q11:What about synchronized method?
+	Ans:
+	
+	Q12:Have you work on any desighn pattern?
+	Ans:
+	
+	Q13:How many ways to break the singleton method?
+	Ans:Multithrading 
+	
+	Q14:What are the new features introdues in java 8?
+	Ans:In java 1.8 version has stream api and Lambda expression,Functional Interface
+		    Optional Class.
+	
+	Q15:What is functional Interface?
+	Ans:functional interface is which interface those contain only one interface
+	    it is used to invoked the lamda expression.
+		
+	Q16:What is the purpose of default method?
+	Ans:In default method we can't override parents class method in child class
+	     and implementation will be used.
+		 
+
+    Q17:What the exception order in catch block?
+	Ans:
+	
+	Q18:What is the difference between arraylist and link list?
+	Ans:In ArrayList frequent operation is retrieval
+	    In LinkList is the best choice for insertion and deletion
+		
+		In ArrayList is worst for insertion order
+		In LinkList is the worst choice for frequent operation
+		
+		In Arraylist data structure for ArrayList is resizable or growable Array
+		In Linklist data structure is DoubleLinked List
+	

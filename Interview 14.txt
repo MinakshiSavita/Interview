@@ -1,0 +1,20 @@
+                                      Java Interview Question
+									  
+	Link:
+
+    Q1:concurrent hash map work
+    Ans:
+
+    Q2:What is the use of class loader?
+    Ans:	
+	
+	Q3:What is the immutable objects?
+	Ans:
+	
+	Q4:Do you know about desighn pattern?
+	Ans:
+	
+	Q5:How to auto configuration works?
+	Ans:
+	
+	Q6:

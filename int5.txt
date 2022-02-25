@@ -1,0 +1,165 @@
+                                    Interview Question
+									
+		Link:https://www.youtube.com/results?search_query=java+by+kiran+interview
+		
+		Q1:What is the difference between abstraction and Encapsulation?
+		Ans:abstraction is nothing but method to hiding data to the unnessiary data from 
+		    user.
+			Encapsulation:is nothing but binding the data and abstraction method into single
+			unit. its can achieve by using private modifier and getter and setter method.
+		
+		Q2:Types of inheritance.
+		Ans:inheritance is divided into five types
+		1.single inheritance
+		2.multiple inheritance
+		3.multilevel inheritance
+		4.Hierachial inheritance
+		5.Hybrid inheritance
+		
+		Q3:What is know about collection Hierachy?
+		Ans:
+		
+		Q4:How to iterate list?
+		Ans:Its using by each loop for iterate and list iterator
+		
+		Q5:How to iterate hash map?
+		Ans:
+		
+		Q6:What is difference between static and final
+		Ans:static is used for memory optimization and one storage will be their
+		    it is storing variable of value
+			
+			final:its cannot assighn other value.if any method is final then we can't override it
+			       if class is final we can't extend it.
+				   
+				   
+		Q7:What is the use of finally block?
+		Ans:It is using exception concept finally keyword is followed by try and catch this block
+		    executed always.
+			
+		Q8:Which is the super most exception class in  
+		Ans:throwable
+		
+		Q9:What is difference between collection and collections?
+		Ans:Collection is a interface which can be used to represent the group of individual objects 
+		     as a single entity.
+		
+		    Collections is a utility package class to define several utility methods for object class
+			
+	
+		Q10:What is finallize method?
+        Ans:It is invoked by garbage collector just before distroying an object to perform 
+		    cleanup activity once.
+			
+        Q7:What is difference between vector and arraylist?
+	     Ans:arraylist is used inserting arraylist
+		 
+		Q8:Can object will be finall?
+		Ans:
+		
+		Q9:Any method of object class?
+		Ans:clone method ,wait method,get method, hash code method
+		
+		Q10:What is overriding?
+		Ans:If 
+		
+		Q11:Which annotation is know in java.
+		Ans:@override
+		
+		Q12:What is the features in 1.8 in JDK?
+		Ans:Lambda expression,Function Interface,Optional class,Stream Api.
+		
+		Q13:WAP a logic to swap the given no.
+		Ans:int a=10;
+		    int b=20;
+			int c;
+			c=a;
+			a=b;
+			b=c;
+			System.out.println(b);
+			System.out.println(a);
+			
+		Q14:Without using int c;
+		Ans:int a=10;
+		    int b=20;
+			
+		
+			a=a+b;
+			b=a-c;
+			a=a-b;
+			System.out.println(b);
+			System.out.println(a);
+			
+		Q15:can you sort this array
+        Ans:int a[]={3,6,9,2,5,67,1}
+
+        Q16:Find the factorial no of 5
+         Ans:
+
+        Q17:What is reflaction concept?
+        Ans:
+
+        Q18:How to create reflaction ?
+        Ans:class.instance
+
+        Q19:What is thead in java?
+        Ans:It is subprocess of any process
+
+        Q20:How to create thread?
+        Ans:by following two ways by implement  Runnable interface
+             and by extenind 
+
+        Q21:What is 1.5 version and 1.6 version and 1.7 version	and 1.8 version
+        Ans:1.5version:
+
+            1.6 version:
+             
+
+        Q22:What is JDBC?
+		Ans:
+		
+		Q23:What is primary key and foreighn key?
+		Ans:primary key is unique and optional
+		    foreighn key is reference key
+			
+		Q24:What is the IO stream in java?
+		Ans:
+		
+		Q25:What is the difference between by strem or character stream?
+		Ans:
+		
+		Q26:WAP to print only odd numbers
+		Ans:int a[]={2,5,7,9,2,5,7}
+		     for(int i=0;i<a.length;i++){
+			    if(a[i]%2!=0){
+				System.out.println(a[i]);
+				
+				}
+			 }
+			 
+		Q27:WAP to logic of print in reverse order;
+		Ans:for(int i=0;i<a.length-1;i--)
+		
+		Q28:Write the logic to add all  odd numbers.
+		Ans:int a[]={2,5,7,9,2,5,7}
+		     int sum =0;
+		     for(int i=0;i<a.length;i++){
+			    if(a[i]%2!=0){
+				sum=sum+a[i];
+				System.out.println(sum);
+				
+		Q29:What is consutructor used?
+        Ans:
+    
+        Q30:Who call the constructor?
+         Ans: by creating object
+        
+        Q31:What is the use of super key and this key?
+        Ans:super key is use with parent class object and this key is used with sub class
+            object.
+
+        Q32:What is the difference between string ,string buffer and string builder?
+         Ans:
+
+        		 
+				

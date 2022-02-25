@@ -1,0 +1,59 @@
+                                    Java Interview
+									
+		Link:https://www.youtube.com/watch?v=IgnfZS458uc&t=661s
+		
+		Q1:How do you test your code?
+		Ans:
+		
+		Q2:What is the difference between JDK and JRE
+		Ans:
+		
+		Q3:What is jar and war?
+		Ans:
+		
+		Q4:What are checked and unchecked exception?
+		Ans:
+		
+		Q5:Runnable vs Thread
+		Ans:
+		
+		Q6:What methods are present in object class?
+		Ans:
+		
+		Q7:What is polymorphism?
+		Ans:
+		
+		Q8:What is the difference between error and exception?
+		Ans:
+		
+		Q9:What are feature of 1.8?
+		Ans:
+		
+		Q10:Write a program to reverse a string without using string API.
+		
+		
+		Q11:Reverse vowels in a given string
+		
+		Q12:throw vs throws
+		Ans:
+		
+		Q13:What all design patterns you know?
+		Ans:
+		
+		Q14:What is deadlock
+		Ans:
+		
+		Q15:comparable vs comparator
+		Ans:
+		
+		Q16:What is the diifernce between HashMap and concurrentHashMap
+		Ans:
+		
+		Q17:What is the difference bean scopes and spring and explain them?
+		Ans:
+		
+		Q18:Explain @SpringBootApplicaton
+		Ans:
+		
+		Q19:What is the difference between query param and path param
+	
